@@ -1,0 +1,6 @@
+pyspark
+scikit-learn
+numpy
+pandas
+flask
+tensorflow

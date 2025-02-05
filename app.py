@@ -2,7 +2,7 @@ from flask import Flask, render_template , request, jsonify
 import pickle
 import numpy as np
 
-popular_df = pickle.load(open('model/popular.pkl','rb'))
+popular_df = pickle.load(open('model/popular.pkl','rb')) # top 50 most popular books
 pt = pickle.load(open('model/pt.pkl','rb'))
 books = pickle.load(open('model/books.pkl','rb'))
 similarity_scores = pickle.load(open('model/similarty_scores.pkl','rb'))
